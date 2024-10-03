@@ -16,12 +16,12 @@
     </header>
     <nav>
         <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">¿Quienes somos?</a></li>
+            <li><a href="C:\Users\Noah\Downloads\Bicihelp.-main\Bicihelp.-main\Bicihelp\VIEW\Inicio.html">Inicio</a></li>
+            <li><a href="C:\Users\Noah\Downloads\Bicihelp.-main\Bicihelp.-main\Bicihelp\VIEW\Nosotros.html">Quienes somos</a></li>
             <li><a href="#">Contactenos</a></li>
-            <li><a href="#">servicios</a></li>
-            <li><a href="#">Registrarse</a></li>
-            <li><a href="#">Inicio de sesion</a></li>
+            <li><a href="C:\Users\Noah\Downloads\Bicihelp.-main\Bicihelp.-main\Bicihelp\VIEW\Servicios.html">servicios</a></li>
+            <li><a href="C:\Users\Noah\Downloads\Bicihelp.-main\Bicihelp.-main\Bicihelp\VIEW\Registro_usuarios.html">Registrarse</a></li>
+            <li><a href="C:\Users\Noah\Downloads\Bicihelp.-main\Bicihelp.-main\Bicihelp\VIEW\Inicio_sesion.html">Inicio de sesion</a></li>
             <li><a href="#">Chat</a></li>
         </ul>
     </nav>
