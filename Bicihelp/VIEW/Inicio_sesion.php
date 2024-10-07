@@ -17,7 +17,7 @@
     </header> 
     <div class="login-container">
         <h2>Inicio de Sesión</h2>
-        <form action="#" method="post">
+      <form action="../CONTROLER/ingreso.php" method="post">
             <div class="input-group">
                 <label for="username">Usuario</label>
                 <input type="text" id="username" name="username" required>
