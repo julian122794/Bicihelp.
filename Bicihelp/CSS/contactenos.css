@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif,;
+   
+   
+}
+body{
+    background-color: #dcf4ff 
+}
+.container-form{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:50px;
+    margin-top: 90px;
+    align-items: center;
+}
+.container-form h2{
+margin-bottom: 15px;
+font-size: 35px;
+}
+.container-fotm p{
+    font-size: 17px;
+    line-height: 1.5px;
+    margin-bottom: 40px;
+}
+.container-form i {
+    font-size: 17px;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 15px;
+    font-weight: 500
+    
+}
+.bx{
+    font-size: 17px;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 15px;
+    font-weight: 500
+}
+.container-form form.campo,textarea{
+    width:100%;
+    padding:15px 10px;
+    font-size: 15px;
+    border:1px solid;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+
+header{
+    display: flex;
+    background-color: #000000;
+    color: #f8f32b; /* Amarillo */
+    margin: 0;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+
+.title{
+   padding-left: 600px;
+}
+footer {
+    background-color: #000000;
+    color:#f8f32b; /* Amarillo */
+    text-align: center;
+    padding: 30px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    margin-left: 0;
+}
+.campo{
+    width: 320px;
+    height: 40px;
+    font-size:15px ;
+}
+textarea{
+    width: 320px;
+   height: 200px;
+}
+input.btn-enviar{
+margin-right: 400px;
+width: 120px;
+height: 40px;
+box-shadow: #0000ff;
+background-color: #4040f3;
+color: #ffffff;
+border-radius: 2px;
+}
+p{
+    font-size: 20px;
+}
+form{
+ padding-top: 50px;
+}
+p.subtitle{
+font-weight: 600px;
+}
+/*margen central del menu*/
+nav {
+    background-color: #dcf4ff ; /* Azul agua marina */
+    padding: 10px;
+    text-align: center;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* division de los apartados de la barra del menu*/
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+/* color de las letras de la barra del menu*/
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #f7c346; /* Amarillo */
+}
