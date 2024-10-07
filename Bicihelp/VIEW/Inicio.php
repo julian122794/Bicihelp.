@@ -15,13 +15,12 @@
         </div>
     </header>
     <nav>
-        <ul>
-            <li><a href="C:\Users\Noah\Downloads\Bicihelp.-main\Bicihelp.-main\Bicihelp\VIEW\Inicio.html">Inicio</a></li>
-            <li><a href="C:\Users\Noah\Downloads\Bicihelp.-main\Bicihelp.-main\Bicihelp\VIEW\Nosotros.html">Quienes somos</a></li>
+        <ul>     <li><a href="../VIEW/Inicio.php">Inicio</a></li>
+            <li><a href="../VIEW/Nosotros.php">Quienes somos</a></li>
             <li><a href="#">Contactenos</a></li>
-            <li><a href="C:\Users\Noah\Downloads\Bicihelp.-main\Bicihelp.-main\Bicihelp\VIEW\Servicios.html">servicios</a></li>
-            <li><a href="C:\Users\Noah\Downloads\Bicihelp.-main\Bicihelp.-main\Bicihelp\VIEW\Registro_usuarios.html">Registrarse</a></li>
-            <li><a href="C:\Users\Noah\Downloads\Bicihelp.-main\Bicihelp.-main\Bicihelp\VIEW\Inicio_sesion.html">Inicio de sesion</a></li>
+            <li><a href="../VIEW/Servicios.php">servicios</a></li>
+            <li><a href="../VIEW/Registro_contratista.php">Registrarse</a></li>
+            <li><a href="../VIEW/Inicio_sesion.php">Inicio de sesion</a></li>
             <li><a href="#">Chat</a></li>
         </ul>
     </nav>
