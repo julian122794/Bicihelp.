@@ -20,8 +20,9 @@
             <button class="location-btn deny">No permitir</button>
         </div>
     </div>
-    <footer> 
-        <p>&copy; 2024 BiciHelp. Todos los derechos reservados.</p>
-    </footer>
+    <?php
+
+include("footer.php")
+?>
 </body>
 </html>
