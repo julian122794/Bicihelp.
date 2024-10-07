@@ -8,6 +8,13 @@
 </head>
 
 <body>   
+    <header>
+        <div class = "logo">
+            <img src="../IMG/logo.jpg" width="150" height="150" alt="25">
+        <h1 class="title">Bienvenido a BiciHelp</h1>
+        </div>
+       
+    </header> 
     <div class="login-container">
         <h2>Inicio de Sesión</h2>
         <form action="#" method="post">
@@ -29,8 +36,9 @@
           
         </form>
     </div>
-    <footer>
-        <p>&copy; 2024 BiciHelp. Todos los derechos reservados.</p>
-    </footer>
+    <?php
+
+include("footer.php")
+?>
 </body>
 </html>
