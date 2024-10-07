@@ -51,8 +51,9 @@
         </section>
     </main>
     <br></br><br></br><br></br><br></br><br></br><br></br>
-    <footer>
-        <p>&copy; 2024 BiciHelp. Todos los derechos reservados.</p>
-    </footer>
+    <?php
+
+include("footer.php")
+?>
 </body>
 </html>
