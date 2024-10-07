@@ -12,23 +12,23 @@
         <form action="#" method="post">
             <div class="input-group">
                 <label for="username">Nombres</label>
-                <input type="text" id="username" name="username" required>
+                <input type="text" id="username" name="nombres" required>
             </div>
             <div class="input-group">
                 <label for="email">Apellidos</label>
-                <input type="email" id="email" name="email" required/>
+                <input type="text" id="lastname" name="apellidos" required/>
             </div>
             <div class="input-group">
                 <label for="email">fecha de nacimiento</label>
-                <input type="date" name="bday" />
+                <input type="date" name="fecha_nacimiento" />
             </div>
 
             <div class="input-group">
                 <label for="email">Correo Electrónico</label>
-                <input type="email" id="email" name="email" required>
+                <input type="email" id="email" name="correo_electronico" required>
             </div>
             <div>
-                <select class="docm">
+                <select class="docm" name="cedula_ciudadania">
                     <option value = "1">cedula de ciudadania</option>
                     <option value = "1">cedula de extranjeria</option>
                     <option value = "1">tarjeta identidad</option>
@@ -37,7 +37,7 @@
                 </select></br></br>
             </div>
             <div>
-                <select class="docm">
+                <select class="docm" name="tipo_servicio">
 
                     <option value = "1">tipo de servicio</option>
                     <option value = "1">tècnico en electricidad</option>
@@ -48,16 +48,16 @@
             </div>
               
             <div class="input-group">
-                <label for="email">Telefono</label>
-                <input type="email" id="email" name="email" required>
+                <label for="telefono">Telefono</label>
+                <input type="text" id="telephone" name="telefono" required>
             </div>
             <div class="input-group">
-                <label for="email">Ciudad</label>
-                <input type="email" id="email" name="email" required>
+                <label for="ciudad">Ciudad</label>
+                <input type="text" id="city" name="ciudad" required>
             </div>
             <div class="input-group">
                 <label for="password">Contraseña</label>
-                <input type="password" id="password" name="password" required>
+                <input type="password" id="password" name="contrasena" required>
                 <span class="eye-icon">&#128065;</span>
             </div>
             <div class="input-group">
@@ -65,11 +65,12 @@
                 <input type="password" id="confirm-password" name="confirm-password" required>
                 <span class="eye-icon">&#128065;</span>
             </div>
-            <button type="submit">Registrarse</button>
+            <button type="submit" name="registro">Registrarse</button>
         </form>
     </div>
-    <footer>
-        <p>&copy; 2024 BiciHelp. Todos los derechos reservados.</p>
-    </footer>
+    <?php
+
+include("footer.php")
+?>
 </body>
 </html>
