@@ -36,8 +36,9 @@
             <p>Contamos con un equipo de profesionales dedicados a brindar el mejor servicio para mantener tu bicicleta en óptimas condiciones.</p>
         </section>
     </main>
-    <footer>
-        <p>&copy; 2024 BiciHelp. Todos los derechos reservados.</p>
-    </footer>
+    <?php
+
+include("footer.php")
+?>
 </body>
 </html>
