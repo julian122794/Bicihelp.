@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+/* cabeza de la pagina*/
+header {
+    background-color: #000000;
+    color: #f8f32b; /* Amarillo */
+    padding: 10px;
+    text-align: center; 
+}
+.logo{ 
+    display: flex;
+    align-items:center ;
+}
+
+.logo img{ 
+    height: 70px;
+    margin-right: 350px;
+}
+/*margen central del menu*/
+nav {
+    background-color: #dcf4ff ; /* Azul agua marina */
+    padding: 10px;
+    text-align: center;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* division de los apartados de la barra del menu*/
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+/* color de las letras de la barra del menu*/
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #f7c346; /* Amarillo */
+}
+
+/* espacio del texto del cuerpo de la paguina*/
+main {
+    padding: 20px;
+}
+
+
+.chat-container {
+    width: 350px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-box {
+    height: 400px;
+    overflow-y: scroll;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.message {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    max-width: 80%;
+}
+
+.message.user {
+    background-color: #d1e7dd;
+    align-self: flex-end;
+}
+
+.input-box {
+    display: flex;
+    padding: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
