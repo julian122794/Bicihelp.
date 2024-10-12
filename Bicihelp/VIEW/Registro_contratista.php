@@ -6,10 +6,14 @@
     <title>Registro</title>
     <link rel="stylesheet" href="../CSS/Styles.css">
 </head>
+
+
+
 <body>
+<form action="../Model/base_datos.php" method="post">
     <div class="login-container">
         <h2>Registro contratistas.</h2>
-        <form action="#" method="post">
+        <form action="../Model/base_datos.php" method="post">
             <div class="input-group">
                 <label for="username">Nombres</label>
                 <input type="text" id="username" name="nombres" required>
@@ -35,6 +39,10 @@
                     <option value = "1">pasaporte</option>
                     <option value = "1">NIT</option>
                 </select></br></br>
+            </div>
+            <div class="input-group">
+                <label for="documento">Numero documento</label>
+                <input type="text" id="documento" name="documento" required>
             </div>
             <div>
                 <select class="docm" name="tipo_servicio">
@@ -67,10 +75,19 @@
             </div>
             <button type="submit" name="registro">Registrarse</button>
         </form>
+
     </div>
+    </br></br>
+    </br></br>
+    </br></br>
+    </br></br>
+    </br></br>
+    </br></br>
+
     <?php
 
-include("footer.php")
+include("../VIEW/footer.php")
 ?>
+   
 </body>
 </html>
