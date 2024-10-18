@@ -27,7 +27,7 @@
                 <input type="password" id="password" name="password" required>
                 <span class="eye-icon">&#128065;</span>
             </div>
-            <h2>Olvide mi contraseña</h2>
+             <a href="">¿olvidaste tu contraseña?</a>  </br></br>
             <button type="submit">Iniciar Sesión</button>
             <br></br>
             <button type="submit">Iniciar con GOOGLE</button>
