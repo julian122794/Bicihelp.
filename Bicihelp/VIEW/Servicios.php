@@ -11,8 +11,9 @@
 <body>
 
     <header>
+    <img src="../IMG/logo.jpg" width="130" height="160" alt="25">
         <div class="logo">
-            <img src="../IMG/logo.jpg" width="150" height="200" alt="25">
+          
             <h1>Nuestros servicios</h1>
         </div>
     </header>
@@ -28,25 +29,43 @@
         </ul>
     </nav>
     <main>
-
-        <section>
-            <h2>Servicios electricos</h2>
-            <p>Nuestro servicio de reparación y mantenimiento de bicicletas eléctricas se especializa en diagnosticar y solucionar problemas relacionados con los sistemas eléctricos de tu bici. Ofrecemos la revisión y reparación de baterías, motores, cables, controladores y todo el sistema eléctrico para asegurar un funcionamiento óptimo y seguro. Además, realizamos mantenimiento preventivo, cambios de componentes y ajustes para maximizar la vida útil de tu bicicleta eléctrica, garantizando que siempre esté lista para rodar con el mejor rendimiento.</p>
+    <h2>Servicios electricos</h2>
+        <section class="services">
+            
+            <p class="parrafo">Nuestro servicio de reparación y mantenimiento de bicicletas eléctricas se especializa en diagnosticar y 
+                solucionar problemas relacionados con los sistemas eléctricos de tu bici. 
+                Ofrecemos la revisión y reparación de baterías, motores, cables, controladores y todo el
+             sistema eléctrico para asegurar un funcionamiento óptimo y seguro. Además,
+             realizamos mantenimiento preventivo, cambios de componentes y ajustes para maximizar
+              la vida útil de tu bicicleta eléctrica, garantizando que siempre esté lista para rodar con
+               el mejor rendimiento.</p>
             <div class="reparación">
-                <img src="../IMG/ReparacionselectroniquesVAIC.jpg" width="650" height="400" alt="45">
+                <img  class="zoomimg" src="../IMG/ReparacionselectroniquesVAIC.jpg" width="650" height="400" alt="45">
 
 
         </section>
-        <section>
-            <h2>Servicio técnico</h2>
-            <p>Ofrecemos un servicio de préstamo técnico de bicicletas diseñado para asegurar que tu bicicleta esté siempre en perfectas condiciones, sin necesidad de que adquieras herramientas especializadas o conocimientos técnicos. Nuestro objetivo es brindarte un mantenimiento y reparación de calidad, facilitando la experiencia de ciclismo y prolongando la vida útil de tu bicicleta.
+
+        <h2>Servicio técnico</h2>
+
+        <section class="services">
+            
+            <p class="parrafo">Ofrecemos un servicio de préstamo técnico de bicicletas diseñado para asegurar que tu 
+                bicicleta esté siempre en perfectas condiciones, sin necesidad de que adquieras herramientas 
+                especializadas o conocimientos técnicos. Nuestro objetivo es brindarte un mantenimiento
+                 y reparación de calidad, facilitando la experiencia de ciclismo y prolongando 
+                 la vida útil de tu bicicleta.
             <div class="reparación">
                 <img src="../IMG/tecnico.jpg" width="650" height="400" alt="45">
                 </p>
         </section>
-        <section>
-            <h2>Repuestos</h2>
-            <p>En BiciHlep, nos especializamos en ofrecer una amplia gama de repuestos para bicicletas, asegurando que puedas mantener y reparar tu bicicleta con facilidad y eficacia. Contamos con un inventario completo de piezas y accesorios de alta calidad, adaptados a diferentes tipos de bicicletas y necesidades específicas.
+
+        <h2>Repuestos</h2>
+
+        <section class="services">
+           
+            <p class="parrafo">En BiciHlep, nos especializamos en ofrecer una amplia gama de repuestos para bicicletas,
+                 asegurando que puedas mantener y reparar tu bicicleta con facilidad y eficacia. Contamos con un inventario 
+                 completo de piezas y accesorios de alta calidad, adaptados a diferentes tipos de bicicletas y necesidades específicas.
             <div class="reparación">
                 <img src="../IMG/repuestos bicicleta.jpg" width="650" height="400" alt="45">
                 </p>
@@ -62,5 +81,8 @@
 </html>
 include("footer.php")
 ?>
+</body>
+</html>
+
 </body>
 </html>
