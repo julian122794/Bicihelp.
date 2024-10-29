@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BiciHelp - Inicio</title>
     <link rel="stylesheet" href="../CSS/Inicio.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     
     <header>
+    <img src="../IMG/logo.jpg" width="130" height="160" alt="25">
         <div class = "logo">
-            <img src="../IMG/logo.jpg" width="150" height="200" alt="25">
+         
         <h1>Bienvenido a BiciHelp</h1>
         </div>
     </header>
@@ -25,17 +27,35 @@
             <li><a href="../VIEW/chat.php">Chat</a></li>
         </ul>
     </nav>
-    <main>
+
+    <main class ="principal">
         
         <section>
             <h2>Nuestros Servicios</h2>
-            <p>En BiciHelp, ofrecemos una amplia gama de servicios para ciclistas, desde mantenimiento hasta asistencia en ruta.</p>
-        </section>
-        <section>
+            <p class="texto">En BiciHelp, ofrecemos una amplia gama de servicios para ciclistas,</br> desde mantenimiento hasta asistencia en ruta.</p>
+        
             <h2>¿Por qué elegirnos?</h2>
-            <p>Contamos con un equipo de profesionales dedicados a brindar el mejor servicio para mantener tu bicicleta en óptimas condiciones.</p>
+            <p class="texto" >Contamos con un equipo de profesionales dedicados a brindar el mejor </br>servicio para mantener tu bicicleta en óptimas condiciones.</p>
         </section>
+
+        <div class="login-container">
+       
+         <form>
+         <img src="../IMG/user-solid-72.png" width="72px"></br>
+            <a href="../VIEW/Registro_usuarios.php" target="_blank">
+                <button type="button">Registrar Usuario</button>
+            </a>
+            <br /><br />
+           <img src="../IMG/wrench-solid-72.png" ></br>
+
+            <a href="../VIEW/Registro_contratista.php" target="_blank">
+                <button type="button">Registrar Contratista</button>
+            </a>
+
+        </form>
+    </div>
     </main>
+
     <?php
 
 include("footer.php")
