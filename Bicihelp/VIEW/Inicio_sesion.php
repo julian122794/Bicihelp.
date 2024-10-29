@@ -1,10 +1,9 @@
-
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio de Sesión</title>
-    <link rel="stylesheet" href="../CSS/styles.css">
+    <link rel="stylesheet" href="../CSS/Styles.css">
 </head>
 
 <body>   
@@ -27,13 +26,16 @@
                 <input type="password" id="password" name="password" required>
                 <span class="eye-icon">&#128065;</span>
             </div>
-             <a href="">¿olvidaste tu contraseña?</a>  </br></br>
+            <a href="">¿olvidaste tu contraseña?</a>  </br></br>
             <button type="submit">Iniciar Sesión</button>
             <br></br>
             <button type="submit">Iniciar con GOOGLE</button>
             <br></br>
-            <button type="submit">Iniciar con IOS </button>
-          
+            <button type="submit">Iniciar con IOS </button></br></br>
+            
+            <div>
+            <button type="submit">volver</button>
+            </div>
         </form>
     </div>
     <?php
