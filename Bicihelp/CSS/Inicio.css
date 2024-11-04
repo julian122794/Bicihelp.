@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+body {
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    background-image: url("../IMG/img01.avif");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* cabeza de la pagina*/
+header {
+    background-color: #000000;
+    color: yellow; /* blanco */
+    padding: 10px;
+    text-align: center; 
+    display: flex;
+}
+.logo{ 
+
+    align-items:center ;
+    justify-content: center;
+   width: 100%;
+   display: flex;
+}
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 30px;
+}
+.reparacion { 
+    display: flex;
+    height: 70px;
+    margin-right: 650px;
+    margin: 50px;
+}
+
+
+/*margen central del menu*/
+nav {
+    background-color: #dcf4ff ; /* Azul agua marina */
+    padding: 10px;
+    text-align: center;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* division de los apartados de la barra del menu*/
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+/* color de las letras de la barra del menu*/
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #f7c346; /* Amarillo */
+}
+
+/* espacio del texto del cuerpo de la paguina*/
+main {
+    padding: 20px;
+}
+
+/*centrar el texto del cuerpo*/
+section {
+    margin-bottom: 20px;
+    color:#f7fa37;
+    font-size: 25px;
+    margin-top: 55px;
+   
+
+}
+.services{
+    display: flex;
+}
+/*subtitlulos de la paguina color*/
+h2 {
+    color: white; /* Azul agua marina */
+}
+
+/*pie de paguina con los derechos*/
+footer {
+    background-color: #000000;
+    color:#ffffff; /* blanco */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/*botones de paguina de inicio*/
+button {
+    height: 50px;
+    width: 350px;
+    padding: 10px;
+    background-color: #fdd835;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+  
+}
+
+button:hover {
+    background-color: #FFFF66;
+}
+.texto{
+    color: #e9eb51;
+    font-size: 25px;
+}
+
+.principal{
+    display: flex;
+}
+form{
+    margin-left: 350px;
+    margin-top: 100px;
+}
+form.img{
+    margin-left: 175px;
+}
+.parrafo{
+    width: 50%;
+    margin-right: 80px;
+}
+img{
+    border: 3px solid yellow;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.zoomimg img{
+    transition: transform 0.5s ease-in-out;
+}

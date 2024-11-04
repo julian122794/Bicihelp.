@@ -1,0 +1,199 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+/* cabeza de la pagina*/
+header {
+    background-color: #000000;
+    color: #f8f32b; /* Amarillo */
+    padding: 10px;
+    text-align: center; 
+}
+.logo{ 
+    display: flex;
+    align-items:center ;
+}
+
+.logo img{ 
+    height: 70px;
+    margin-right: 350px;
+}
+.reparacion { 
+    display: flex;
+    height: 70px;
+    margin-right: 650px;
+    margin: 50px;
+}
+
+
+/*margen central del menu*/
+nav {
+    background-color: #dcf4ff ; /* Azul agua marina */
+    padding: 10px;
+    text-align: center;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* division de los apartados de la barra del menu*/
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+/* color de las letras de la barra del menu*/
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #f7c346; /* Amarillo */
+}
+
+nav > li { 
+    float: left;
+}
+/*
+nav ul li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+*/
+nav ul li ul  :hover > ul { 
+    display:block;
+    
+}
+
+* {
+
+    margin: 0x;
+    padding: 0x;
+    box-sizing: border-box;
+}
+
+
+
+.container {
+    display: flex;
+    gap: 2rem;
+}
+
+.profile-card {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.profile-image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.profile-card p {
+    color: #666;
+}
+
+.upload-btn {
+    background-color: #ff5b5b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.upload-btn:hover {
+    background-color: #ff3b3b;
+}
+
+.instructions {
+    font-size: 12px;
+    color: #999;
+}
+
+.member-since {
+    font-size: 12px;
+    color: #aaa;
+    margin-top: 15px;
+}
+
+.edit-profile {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 450px;
+}
+
+.edit-profile h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.update-btn {
+    background-color: #ff5b5b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.update-btn:hover {
+    background-color: #ff3b3b;
+}
+
+footer {
+    background-color: #000000;
+    color:#f8f32b; /* Amarillo */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.edit-perfile{
+    display: flex;
+}
